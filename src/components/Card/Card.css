@@ -1,0 +1,35 @@
+.layout{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    border-radius: 5%;
+}
+
+.layout img{
+    width: 100%;
+    height: 60vh;
+}
+
+.layout h3{
+    font-weight: 600;
+}
+
+.layout h2{
+    scale: 1.1;
+    font-weight: bolder;
+}
+
+.layout{
+    background: white;
+    margin-top: 2rem;
+}
+
+
+/* .layout-image{
+    width: 10px;
+    height: 30px;
+} */

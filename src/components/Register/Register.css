@@ -1,0 +1,67 @@
+.registerbox{
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    height: 50vh;
+}
+
+.registerbox img{
+    width: 300px;
+    height: 400px;
+}
+
+.registerbox.leftsidebox{
+    margin-right: 1rem
+}
+
+.mainregisterbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 50vh;
+
+}
+
+.mainregisterbox.heading{
+    justify-self: flex-start;
+}
+
+.heading{
+    padding-bottom: 5rem;
+    
+}
+
+.heading h3{
+    background-color: red;
+    margin-left: 1rem;
+    border: transparent;
+    scale: 1.1;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+}
+
+.formbox{
+    margin: 1rem 0;
+}
+
+.registerinput{
+    width: 250px;
+    height: 30px;
+}
+
+.registersubmit{
+    background: #F77D24;
+    border: none;
+    width: 130px;
+    height: 100px;
+    color: white;
+    scale: 1.4;
+    margin-left: 1.5rem;
+}

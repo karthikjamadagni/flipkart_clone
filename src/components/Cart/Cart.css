@@ -1,0 +1,38 @@
+.Cart{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.detail{
+    width: 85%;
+}
+
+.summary{
+    margin-top: 2rem;
+    /* padding-top: 5rem; */
+    width: 13%;
+    background-color: white;
+    height: 40vh;
+}
+
+.total-heading{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.refresh{
+    width: 6rem;
+    height: 2rem;
+    margin: 0.5rem auto;
+    margin-left: 3.2rem;
+}
+
+.checkout{
+    width: 6rem;
+    height: 2rem;
+    margin: 0.5rem auto;
+    margin-left: 3.2rem;
+    margin-top: 5rem;
+}

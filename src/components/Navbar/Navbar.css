@@ -1,0 +1,85 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background: #068FFF;
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    font-size: large;
+    padding-top: 20px;
+    margin: 0 50px;
+}
+
+.navbar ul li img{
+    width: 100px;
+    height: 25px;
+    margin-bottom: 1rem;
+}
+
+#search-bar{
+    margin-top: -0.5rem;
+    width: 600px;
+    height: 40px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -3rem;
+}
+
+
+.__login__{
+    background-color: white;
+    color: black;
+    width: 120px;
+    height: 35px;
+    margin-top: 15px;
+    font-size: larger;
+}
+
+.fname-btn{
+    background-color: #068FFF;
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin-top: 15px;
+    font-size: medium;
+    border: none;
+    margin-right: 0.75rem;
+}
+
+.profile-btn{
+    background-color: #2b06ff;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    font-size: medium;
+    border:white;
+    margin-right: -1rem;
+}
+
+.logout{
+    background-color: white;
+    color: black;
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    margin: 15px -1.5rem 0 -1.5rem;
+    font-size: medium;
+}
+
+.order-btn{
+    margin-left: -5rem;
+    margin-right: 0.5rem;
+}
